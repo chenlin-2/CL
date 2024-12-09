@@ -1,0 +1,92 @@
+handleEnding = (text) => {
+  let p = TData.tableData.filter(good => good.Gname.indexOf(text) > -1);
+  let t = TData.person.filter(per => per.user.indexOf(text) > -1);
+  const isEmpty = p.every(item => item === undefined);
+  const isEmpty2 = t.every(item => item === undefined);
+  if(isEmpty) {
+    this.setState({
+    isPerVisible: true,
+    perTable: t,
+    isVisible: false,  
+    person: {
+      employee: text
+    } 
+  })
+  //   if(this.refs.input1.isFocused()){
+  //   this.setState({
+  //     person: {
+  //       employee: text
+  //     }
+  //   })
+  // }else if(this.refs.input5.isFocused()){
+  //     this.setState({
+  //     person: {
+  //       qc: text
+  //     }
+  //   })
+  // }
+  }else if(isEmpty2) {
+    this.setState({
+    isVisible: true,
+    tableData: TData.tableData.filter(good => good.Gname.indexOf(text) > -1),
+    isPerVisible: false
+  })
+    // if(this.refs.input2.isFocused()){
+    //   this.setState({
+    //   person: {
+    //     name: text
+    //   }
+    // })
+    // }
+  
+  }
+  // if(this.refs.input3.isFocused()){
+  //   this.setState({
+  //     person: {
+  //       note: text
+  //     }
+  //   })
+  // }else if(this.refs.input3.isFocused()){
+  //   this.setState({
+  //     person: {
+  //       num: text
+  //     }
+  //   })
+  // }
+}
+
+
+
+handleDeal = (data) => {
+  const t = data.user
+  if(t !== undefined){
+    if(this.refs.input1.isFocused()){
+      this.setState({
+      person: {
+        employee: t
+      }
+    })
+      this.setState({
+        ...this.state.nPerson,
+        employee: t
+      })
+      
+    }else{
+      this.setState({
+      person: {
+        qc: t
+      }
+    })
+    }
+  }else{
+    let p = data.Gname;
+    if(this.refs.input2.isFocused()){
+      this.setState({
+      person: {
+        name: p
+      }
+    })
+    }
+  }
+
+}

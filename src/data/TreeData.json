@@ -1,0 +1,101 @@
+{
+	treeData:  [
+  {
+    "id":"A",
+    "isVisible": "false",
+    "name":"产品类别",
+    "sortNo":"A",
+    "parentId":"0",
+    "children": [
+      {
+        "id":"A01",
+        "name":"主柜",
+        "sortNo":"A01",
+        "parentId":"A",
+      },
+      {
+        "id":"A02",
+        "name":"镜柜",
+        "sortNo":"A02",
+        "parentId":"A",
+      },
+      {
+        "id":"A03",
+        "name":"半成品主柜",
+        "sortNo":"A03",
+        "parentId":"A",
+      },
+      {
+        "id":"A04",
+        "name":"半成品镜柜",
+        "sortNo":"A04",
+        "parentId":"A",
+      },
+      {
+        "id":"A05",
+        "name":"背风板",
+        "sortNo":"A05",
+        "parentId":"A",
+      },
+      {
+        "id":"A06",
+        "name":"背拉",
+        "sortNo":"A06",
+        "parentId":"A",
+      },
+      
+      {
+        "id":"A07",
+        "name":"侧板",
+        "sortNo":"A07",
+        "parentId":"A",
+      },
+      {
+        "id":"A08",
+        "name":"层板",
+        "sortNo":"A08",
+        "parentId":"A",
+      },
+      
+      {
+        "id":"A09",
+        "name":"底板",
+        "sortNo":"A09",
+        "parentId":"A",
+      },
+      {
+        "id":"A10",
+        "name":"分板",
+        "sortNo":"A10",
+        "parentId":"A",
+      },
+      
+      {
+        "id":"A11",
+        "name":"工序",
+        "sortNo":"A11",
+        "parentId":"A",
+      },
+      {
+        "id":"A12",
+        "name":"镜门",
+        "sortNo":"A12",
+        "parentId":"A",
+      },
+      {
+        "id":"A13",
+        "name":"镜片",
+        "sortNo":"A13",
+        "parentId":"A",
+      }
+    ]
+  },
+  {
+    "id":"B",
+    "name":"员工列表",
+    "sortNo":"B",
+    "parentId":"0"
+  }
+
+    ]
+}

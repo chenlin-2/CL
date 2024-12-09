@@ -1,0 +1,78 @@
+{
+    "mRouteList": [
+        {
+            "id": 1,
+            "name": "库存",
+            "route":"Inventory",
+            "img": "../images/icon1.png"
+        },
+        {
+            "id": 2,
+            "name": "冲孔工序",
+            "route":"CKTicket",
+            "img": "../images/icon1.png"
+        },
+        {
+            "id": 3,
+            "name": "折弯工序",
+            "route":"ZWTicket",
+            "img": "../images/icon3.png"
+        },
+        {
+            "id": 4,
+            "name": "撕膜入角工序",
+            "route":"RJTicket",
+            "img": "icon6.png"
+        },
+        {
+            "id": 5,
+            "name": "倒钩工序",
+            "route":"DGTicket",
+            "img": "icon2.png"
+        },
+        {
+            "id": 6,
+            "name": "贴胶工序",
+            "route":"TJTicket",
+            "img": "icon5.png"
+        },
+        {
+            "id": 7,
+            "name": "焊角工序",
+            "route":"HJTicket",
+            "img": "../images/icon3.png"
+        },
+
+        {
+            "id": 8,
+            "name": "主柜组装工序",
+            "route":"ZGZZTicket",
+            "img": "../images/icon1.png"
+        },
+        {
+            "id": 9,
+            "name": "主柜包装工序",
+            "route":"ZGBZTicket",
+            "img": "../images/icon5.png"
+        },
+
+        {
+            "id": 10,
+            "name": "镜柜组装工序",
+            "route":"JGZZTicket",
+            "img": "../images/icon6.png"
+        },
+        {
+            "id": 11,
+            "name": "镜柜包装工序",
+            "route":"JGBZTicket",
+            "img": "../images/icon3.png"
+        },
+        {
+            "id": 12,
+            "name": "镜门工序",
+            "route":"JMTicket",
+            "img": "../images/icon2.png"
+        },
+    ]
+}
